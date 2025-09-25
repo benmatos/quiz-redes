@@ -1,0 +1,1570 @@
+{
+  "questions": [
+    
+    
+  {
+    "id": "65b1254ceccdbbbddeafb4aa",
+    "description": "<p><span >(UFPE/2017 - Adaptada) A Máquina Enigma foi um dispositivo de criptografia usado pelos alemães durante a Segunda Guerra Mundial para codificar mensagens militares. Ela foi inventada por Arthur Scherbius no final da Primeira Guerra Mundial e foi usada amplamente pela Alemanha na década de 1930. A Máquina Enigma era composta por vários rotores, conexões elétricas e um teclado. Quando uma tecla era pressionada, a mensagem codificada era gerada. Sobre o tema criptografia, assinale a alternativa correta.</span></p>",
+    "alternatives": [
+      
+      {
+        "id": "65b125499ca9510b17828086",
+        "description": "<p><span >Num esquema de criptografia de chave pública, a chave privada é distribuída publicamente.</span></p>"
+      },
+      {
+        "id": "65b125499ca9510b17828087",
+        "description": "<p><span >Em um esquema de criptografia de chave pública e privada, utiliza-se a segunda para criptografar as informações e a primeira para realizar a operação inversa.</span></p>"
+      },
+      {
+        "id": "65b125499ca9510b17828088",
+        "description": "<p><span >Na criptografia assimétrica, utiliza-se a mesma chave para codificação e decodificação das informações.</span></p>"
+      },
+      {
+        "id": "65b125499ca9510b17828089",
+        "description": "<p><span >O MD5 é uma função criptográfica de 32 bits utilizada principalmente para verificação da integridade de arquivos.</span></p>"
+      },
+      {
+        "id": "65b125499ca9510b1782808a",
+        "description": "<p><span >Em um sistema de banco de dados de logins e senhas seguro, tanto um como outro são guardados sem criptografia.</span></p>"
+      }
+    ],
+    "respostaCorreta": "65b125499ca9510b17828087",
+    "descricaoRespostaCorreta": "Em um esquema de criptografia de chave pública e privada, utiliza-se a segunda para criptografar as informações e a primeira para realizar a operação inversa.",
+    "comentario": "Esta alternativa descreve o funcionamento de uma assinatura digital, uma das aplicações da criptografia assimétrica. Para garantir autenticidade, o remetente usa sua chave privada para assinar (criptografar) a mensagem, e qualquer pessoa com a chave pública pode verificar (descriptografar) a assinatura. Fonte: Red Hat - Understanding digital signatures.",
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb7464ffdc",
+    "description": "<p><span style=\"font-size:14px\">De acordo com a norma ABNT NBR ISO IEC 27001:2013, para garantir a segurança dos dados em determinada rede, é necessário que sejam garantidas algumas propriedades. Acerca dessas propriedades, podemos afirmar que:</span></p>\r\n",
+    "respostaCorreta": "654be4fdb5168ccb7464ffd8",
+    "descricaoRespostaCorreta": "A disponibilidade está relacionada com a possibilidade de acesso aos dados, quando necessário.",
+    "comentario": "A Disponibilidade é um dos três pilares do tripé da segurança da informação (CID - Confidencialidade, Integridade e Disponibilidade). Ela garante que os sistemas e dados estejam acessíveis e utilizáveis sob demanda por uma entidade autorizada. Fonte: Cisco - What Is the CIA Triad?",
+    "alternatives": [
+      {
+        "id": "654be4fdb5168ccb7464ffd7",
+        "description": "<p><span style=\"font-size:14px\">A confidencialidade está relacionada com a exatidão da informação, garantindo que ela permaneceu intacto.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffd8",
+        "description": "<p><span style=\"font-size:14px\">A disponibilidade está relacionada com a possibilidade de acesso aos dados, quando necessário.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffd9",
+        "description": "<p><span style=\"font-size:14px\">A autenticidade está relacionada com o sigilo do emissor e receptor de determinada informação.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffda",
+        "description": "<p><span style=\"font-size:14px\">O não repúdio garante validade jurídica a uma transação, que, para ser alcançada, necessita de integridade e legalidade.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffdb",
+        "description": "<p><span style=\"font-size:14px\">A legalidade da transação, que protege a integridade dos dados.</span></p>\r\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb7465053a",
+    "description": "<p><span >Alice e Bob estão conversando por meio de um aplicativo de chat no celular. As mensagens enviadas entre eles não possuem criptografia, e Dart está conseguindo ler todas as mensagens que eles enviam, mas sem modificá-las. Podemos afirmar que este é um exemplo de ataque:</span></p>",
+    "descricaoRespostaCorreta": "Passivo de interceptação.",
+    "respostaCorreta": "65b123019ca9510b1782345b",
+    "comentario": "Um ataque passivo é aquele em que o atacante apenas observa a comunicação sem alterá-la. A interceptação de mensagens (escuta ou 'eavesdropping') é o exemplo clássico. Como Dart apenas lê as mensagens, o ataque é passivo. Fonte: RFC 4949 - Internet Security Glossary.",
+    "alternatives": [
+      {
+        "id": "65b123019ca9510b17823458",
+        "description": "<p><span >Ativo de interceptação.</span></p>"
+      },
+      {
+        "id": "65b123019ca9510b17823459",
+        "description": "<p><span >Passivo de personificação.</span></p>"
+      },
+      {
+        "id": "65b123019ca9510b1782345a",
+        "description": "<p><span >Ativo de fabricação.</span></p>"
+      },
+      {
+        "id": "65b123019ca9510b1782345b",
+        "description": "<p><span >Passivo de interceptação.</span></p>"
+      },
+      {
+        "id": "65b123019ca9510b1782345c",
+        "description": "<p><span >Ativo de autenticação.</span></p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be6e6b5168ccb7467dce2",
+    "description": "<td align=\"left\" valign=\"middle\" class=\"linha_text_med_000000\"><p style=\"margin-left:18.0pt\">O cenário atual de segurança cibernética, como exemplificado pelo Brasil sofrendo 15 bilhões de ataques em apenas três meses, ressalta a criticidade da análise e gestão de riscos em redes de computadores. A norma ABNT NBR ISO IEC 27001:2013 fornece um arcabouço para entender melhor as definições, propriedades e tipos de ataques, bem como as estratégias para mitigá-los. Conhecer esses conceitos é essencial para desenvolver mecanismos eficazes de proteção.</p>\n\n<p style=\"margin-left:18.0pt\">&nbsp;</p>\n\n<p style=\"margin-left:18.0pt\">Com base na norma ABNT NBR ISO IEC 27001:2013, qual das alternativas melhor define uma \"Ameaça\" no contexto da segurança da informação?</p>\n</td>",
+    "alternatives": [
+      
+      
+      {
+        "id": "654be6e6b5168ccb7467dcdd",
+        "description": "<p>Uma vulnerabilidade no sistema de informação.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcde",
+        "description": "<p>Uma ferramenta usada para proteger dados.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcdf",
+        "description": "<p>Uma política de segurança interna da empresa.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dce0",
+        "description": "<p>Causa potencial de um incidente indesejado que pode resultar em danos a um sistema ou organização.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dce1",
+        "description": "<p>Um incidente que já causou danos à organização.</p>"
+      }
+    ],
+    "respostaCorreta": "654be6e6b5168ccb7467dce0",
+    "descricaoRespostaCorreta": "Causa potencial de um incidente indesejado que pode resultar em danos a um sistema ou organização.",
+    "comentario": "A norma ISO/IEC 27001 define 'ameaça' como a causa potencial de um incidente indesejado, que pode resultar em danos a um sistema ou organização. Uma vulnerabilidade é uma fraqueza que pode ser explorada por uma ameaça. Fonte: ISO/IEC 27001:2013.",
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be5bdb5168ccb746671de",
+    "description": "<p><span>Certa empresa sofreu um ataque de negação de serviço, que tem por objetivo sobrecarregar a rede com dados acima da capacidade dela. Para esta atividade, o atacante utilizou máquinas de usuários que estavam vulneráveis na internet, enviando dados para a rede da empresa. Podemos afirmar que este ataque é:</span></p>",
+    "descricaoRespostaCorreta": "Indireto",
+    "respostaCorreta": "65b12dc355fefcc52fd4a575",
+    "comentario": "O ataque é classificado como indireto porque o atacante não usa sua própria máquina para atacar o alvo, mas sim máquinas de terceiros (zumbis) que foram comprometidas. Este é o princípio de um ataque de Negação de Serviço Distribuído (DDoS). Fonte: Cloudflare - What is a DDoS attack?",
+    "alternatives": [
+      {
+        "id": "65b12dc355fefcc52fd4a575",
+        "description": "<p><span>Indireto</span></p>"
+      },
+      {
+        "id": "65b12dc355fefcc52fd4a576",
+        "description": "<p><span>Interno</span></p>"
+      },
+      {
+        "id": "65b12dc355fefcc52fd4a577",
+        "description": "<p><span>Passivo</span></p>"
+      },
+      {
+        "id": "65b12dc355fefcc52fd4a578",
+        "description": "<p><span>De fabricação</span></p>"
+      },
+      {
+        "id": "65b12dc355fefcc52fd4a579",
+        "description": "<p><span>De autenticação</span></p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb7464ffe2",
+    "description": "<p><span style=\"font-size:14px\">A criptografia é um recurso utilizado desde tempos antigos, e a Cifra de César é um dos algoritmos mais conhecidos. Acerca das técnicas de criptografia, assinale a alternativa <strong>correta</strong>:</span></p>\r\n",
+    "descricaoRespostaCorreta": "Em um algoritmo de chave pública, ao utilizar a chave pública primeiro, é garantida a confidencialidade.",
+    "comentario": "Na criptografia assimétrica (de chave pública), para garantir a confidencialidade, a mensagem é criptografada com a chave pública do destinatário. Apenas o destinatário, que possui a chave privada correspondente, pode descriptografar a mensagem. Fonte: AWS - What Is Public Key Cryptography?",
+    "respostaCorreta": "654be4fdb5168ccb7464ffe0",
+    "alternatives": [
+      {
+        "id": "654be4fdb5168ccb7464ffdd",
+        "description": "<p><span style=\"font-size:14px\">Um algoritmo de criptografia assimétrica emprega uma única chave para cifrar e decifrar.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffde",
+        "description": "<p><span style=\"font-size:14px\">Um algoritmo de criptografia simétrica emprega duas chaves - uma para cifrar e outra para decifrar.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffdf",
+        "description": "<p><span style=\"font-size:14px\">Em um algoritmo de chave privada, ao utilizar a chave privada primeiro, é garantida a confidencialidade.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffe0",
+        "description": "<p><span style=\"font-size:14px\">Em um algoritmo de chave pública, ao utilizar a chave pública primeiro, é garantida a confidencialidade.</span></p>\r\n"
+      },
+      {
+        "id": "654be4fdb5168ccb7464ffe1",
+        "description": "<p><span style=\"font-size:14px\">Um algoritmo de criptografia assimétrica emprega uma única chave para decifrar.</span></p>\r\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be5bdb5168ccb746675f8",
+    "description": "<p><span >Certa empresa realizou uma análise dos riscos que existiam em suas redes e em seus sistemas. O consultor de segurança informou a detecção de vulnerabilidades que permitiam realizar invasões em diversos sistemas. Nesse caso, o atacante poderia assumir a identidade de usuários válidos na rede, caracterizando um ataque de personificação.</span></p>\n<p> </p>\n<p><span >Para minimizar o risco de esse ataque ter sucesso, devem ser implementados mecanismos de:</span></p>",
+    "respostaCorreta": "65b133c555fefcc52fd57e5a",
+    "descricaoRespostaCorreta": "Autenticação e controle de acesso.",
+    "comentario": "Para mitigar ataques de personificação (spoofing), é fundamental primeiro verificar a identidade do usuário (autenticação) e, em seguida, garantir que ele só possa acessar os recursos permitidos (controle de acesso). Fonte: NIST Special Publication 800-63 - Digital Identity Guidelines.",
+    "alternatives": [
+      
+      
+      {
+        "id": "65b133c555fefcc52fd57e59",
+        "description": "<p><span >Sistema de detecção de intrusão e controle de acesso.</span></p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57e5a",
+        "description": "<p><span >Autenticação e controle de acesso.</span></p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57e5b",
+        "description": "<p><span >Autenticação e verificação de integridade.</span></p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57e5c",
+        "description": "<p><span >Antivírus e verificação de integridade.</span></p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57e5d",
+        "description": "<p><span >Sistema de detecção de risco.</span></p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb7465042c",
+    "description": "<p><span >Para que uma rede seja protegida de ataques, é necessário adotar medidas de controle físico e lógicos. Essas medidas de controle têm por objetivo garantir a Confidencialidade, Integridade e Disponibilidade (CID) das informações disponibilizadas na rede. Um exemplo de medida de controle físico é o emprego de:</span></p>",
+    "descricaoRespostaCorreta": "Nobreaks.",
+    "comentario": "Controles físicos são medidas tangíveis para proteger a infraestrutura de TI. Nobreaks (UPS) são um exemplo clássico, pois protegem os equipamentos contra falhas de energia, garantindo a disponibilidade. Antivírus, VPNs e certificados são controles lógicos. Fonte: CompTIA Security+ Guide.",
+    "respostaCorreta": "65b10abdce59b6da9853fd55",
+    "alternatives": [
+      {
+        "id": "65b10abdce59b6da9853fd53",
+        "description": "<p><span >Sistemas de detecção de intrusão.</span></p>"
+      },
+      {
+        "id": "65b10abdce59b6da9853fd54",
+        "description": "<p><span >Redes virtuais privadas.</span></p>"
+      },
+      {
+        "id": "65b10abdce59b6da9853fd55",
+        "description": "<p><em><span >Nobreaks.</span></em></p>"
+      },
+      {
+        "id": "65b10abdce59b6da9853fd56",
+        "description": "<p><span >Certificados digitais.</span></p>"
+      },
+      {
+        "id": "65b10abdce59b6da9853fd57",
+        "description": "<p><span >Antivírus.</span></p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  }
+,
+  {
+    "id": "654be5d6b5168ccb746692f4",
+    "description": "<p>Com relação à transmissão de sinais em um meio físico, é correto afirmar que</p>",
+    "descricaoRespostaCorreta": "A banda passante do canal distorce o sinal e pode provocar erros na recepção.",
+    "comentario": "Nenhum meio de transmissão é perfeito. A banda passante limitada de um canal atua como um filtro, atenuando certas frequências do sinal mais do que outras, o que causa distorção. Se a distorção for severa, o receptor pode interpretar os bits de forma incorreta. Fonte: 'Comunicação de Dados e Redes de Computadores' - Behrouz A. Forouzan.",
+    "respostaCorreta": "65b115f6c3b1544ce7c8aa08",
+    "alternatives": [
+      {
+        "id": "65b115f6c3b1544ce7c8aa08",
+        "description": "<p>A banda passante do canal distorce o sinal e pode provocar erros na recepção.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8aa09",
+        "description": "<p>A atenuação do sinal só ocorre em meios não guiados.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8aa0a",
+        "description": "<p>Quanto maior a banda passante do canal, menor a taxa de transmissão que pode ser alcançada.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8aa0b",
+        "description": "<p>A potência do sinal transmitido é sempre menor do que a do sinal recebido.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8aa0c",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb74678552",
+    "description": "<p>Há uma variedade de erros que podem ocorrer ao enviar mensagens em redes de computadores. Para minimizar esses erros, as redes de computadores geralmente implementam técnicas de detecção e correção de erros, como a adição de informações de verificação de redundância cíclica (CRC) aos pacotes e o reenvio de pacotes perdidos. Nesse sentido, as colisões em redes de computadores</p>",
+    "descricaoRespostaCorreta": "São previstas nos protocolos baseados em contenção.",
+    "comentario": "Protocolos de acesso ao meio baseados em contenção, como o CSMA/CD (usado em Ethernet antiga) e o CSMA/CA (usado em Wi-Fi), partem do princípio de que colisões podem ocorrer quando duas ou mais estações tentam transmitir simultaneamente. Eles incluem mecanismos para detectar e se recuperar dessas colisões. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "65b11ee69ca9510b1781aa82",
+    "alternatives": [
+      {
+        "id": "65b11ee69ca9510b1781aa82",
+        "description": "<p>São previstas nos protocolos baseados em contenção.</p>"
+      },
+      {
+        "id": "65b11ee69ca9510b1781aa83",
+        "description": "<p>Requerem o uso de token para o tratamento.</p>"
+      },
+      {
+        "id": "65b11ee69ca9510b1781aa84",
+        "description": "<p>Não afetam o desempenho dos protocolos.</p>"
+      },
+      {
+        "id": "65b11ee69ca9510b1781aa85",
+        "description": "<p>Ocorrem apenas quando o meio físico é o par trançado.</p>"
+      },
+      {
+        "id": "65b11ee69ca9510b1781aa86",
+        "description": "<p>São benéficas em situações de baixa disputa do enlace.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb74678558",
+    "description": "<p>O processo de detecção e correção de erros em redes é importante para garantir a integridade dos dados transmitidos em uma rede de computadores. O objetivo é detectar quaisquer erros que possam ocorrer durante a transmissão de dados e corrigi-los antes que afetem o destinatário. Nesse sentido, assinale a alternativa correta.</p>",
+    "descricaoRespostaCorreta": "O Stop-and-Wait ARQ emprega técnicas de detecção de erros.",
+    "comentario": "O protocolo Stop-and-Wait ARQ (Automatic Repeat reQuest) é um protocolo de controle de enlace de dados que garante a entrega confiável. Ele utiliza bits de verificação de erro (como checksum) para detectar se um quadro foi corrompido durante a transmissão. Se um erro é detectado, o quadro é descartado e o transmissor eventualmente o reenviará após um timeout. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "65b123449ca9510b17823d0c",
+    "alternatives": [
+      {
+        "id": "65b123449ca9510b17823d0b",
+        "description": "<p>O Stop-and-Wait ARQ é um protocolo de camada física.</p>"
+      },
+      {
+        "id": "65b123449ca9510b17823d0c",
+        "description": "<p>O Stop-and-Wait ARQ emprega técnicas de detecção de erros.</p>"
+      },
+      {
+        "id": "65b123449ca9510b17823d0d",
+        "description": "<p>O Stop-and-Wait ARQ pode ser substituído pelo TCP ou UDP.</p>"
+      },
+      {
+        "id": "65b123449ca9510b17823d0e",
+        "description": "<p>O CSMA/CA é utilizado para garantir a entrega confiável de segmentos na camada de rede.</p>"
+      },
+      {
+        "id": "65b123449ca9510b17823d0f",
+        "description": "<p>A família de protocolos CSMA é utilizada para o roteamento de pacotes na WAN.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be509b5168ccb74651d3d",
+    "description": "<p>Com relação aos protocolos <em>Stop-and-Wait</em> e <em>Go-back n</em> ARQ, pode-se afirmar que:</p>",
+    "descricaoRespostaCorreta": "O Go-back n com janela unitária se reduz ao Stop-and-Wait.",
+    "comentario": "O protocolo Go-Back-N permite que o transmissor envie até N quadros sem esperar por uma confirmação. Se a janela de transmissão (N) for configurada para 1, o transmissor enviará um quadro e deverá esperar a confirmação antes de enviar o próximo, o que é exatamente o comportamento do protocolo Stop-and-Wait. Fonte: 'Redes de Computadores' - Andrew S. Tanenbaum.",
+    "respostaCorreta": "65b128fa9ca9510b1782fe73",
+    "alternatives": [
+      {
+        "id": "65b128fa9ca9510b1782fe72",
+        "description": "<p>Em algumas situações, o desempenho do <em>Stop-and-Wait</em> é superior ao <em>Go-back n</em>.</p>"
+      },
+      {
+        "id": "65b128fa9ca9510b1782fe73",
+        "description": "<p>O <em>Go-back n</em> com janela unitária se reduz ao <em>Stop-and-Wait</em>.</p>"
+      },
+      {
+        "id": "65b128fa9ca9510b1782fe74",
+        "description": "<p>O receptor no <em>Go-back n</em> funciona de forma diferente ao do <em>Stop-and-Wait</em>.</p>"
+      },
+      {
+        "id": "65b128fa9ca9510b1782fe75",
+        "description": "<p>O <em>Go-back n</em> não emprega timeout.</p>"
+      },
+      {
+        "id": "65b128fa9ca9510b1782fe76",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb7467854c",
+    "description": "<p>As técnicas de acesso ao meio são métodos utilizados para controlar o acesso a um canal de comunicação compartilhado, como uma rede sem fio ou uma rede de cabo. O objetivo é garantir que vários dispositivos possam transmitir e receber dados ao mesmo tempo, sem que haja interferência ou colisão de dados. Em relação às técnicas de acesso ao meio, marque a alternativa correta.</p>",
+    "descricaoRespostaCorreta": "O TDMA é baseado em slots de tempo.",
+    "comentario": "TDMA (Time Division Multiple Access) é uma técnica de canalização que divide o acesso ao meio em fatias de tempo (time slots). Cada usuário ou dispositivo tem o direito de transmitir apenas durante seu slot de tempo designado, evitando colisões. Fonte: 'Comunicação de Dados e Redes de Computadores' - Behrouz A. Forouzan.",
+    "respostaCorreta": "65b1270b9ca9510b1782b9c9",
+    "alternatives": [
+      {
+        "id": "65b1270b9ca9510b1782b9c6",
+        "description": "<p>São essenciais em enlaces ponto-a-ponto.</p>"
+      },
+      {
+        "id": "65b1270b9ca9510b1782b9c7",
+        "description": "<p>No CSMA os dispositivos ignoram o canal antes de transmitir os dados assim, evitam colisões.</p>"
+      },
+      {
+        "id": "65b1270b9ca9510b1782b9c8",
+        "description": "<p>O token ring emprega um roteador para tratar colisões.</p>"
+      },
+      {
+        "id": "65b1270b9ca9510b1782b9c9",
+        "description": "<p>O TDMA é baseado em slots de tempo.</p>"
+      },
+      {
+        "id": "65b1270b9ca9510b1782b9ca",
+        "description": "<p>O desempenho do S-ALOHA era inferior ao desempenho do ALOHA.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  }
+,
+  {
+    "id": "654be673b5168ccb746768c3",
+    "description": "<p>(VUNESP/2022 - Adaptada) Em rela&ccedil;&atilde;o ao protocolo IP (Internet Protocol), o cabe&ccedil;alho IPv4 possui um campo que &eacute; um contador usado para limitar a vida &uacute;til dos pacotes. Sobre este contador, &eacute; correto afirmar que</p>\n",
+    "descricaoRespostaCorreta": "O campo Ip header length informa o tamanho do cabeçalho em palavras de 32 bits",
+    "comentario": "Embora a pergunta seja sobre o contador de vida útil (TTL), a única alternativa correta descreve outro campo do cabeçalho IPv4. O campo IHL (Internet Header Length) tem 4 bits e especifica o tamanho do cabeçalho em palavras de 32 bits (4 bytes). O valor mínimo é 5 (20 bytes) e o máximo é 15 (60 bytes). Fonte: RFC 791 - Internet Protocol.",
+    "respostaCorreta": "654be673b5168ccb746768c2",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768be",
+        "description": "<p>a vida &uacute;til m&aacute;xima de um pacote &eacute; limitada em 65535 milisegundos.</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768bf",
+        "description": "<p>ele &eacute; denominado Package Counter</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c0",
+        "description": "<p>ele limita uma vida &uacute;til m&aacute;xima de um pacote em 360 segundos</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c1",
+        "description": "<p>o tempo que ele contabiliza &eacute; dado em m&uacute;ltiplos de microsegundos</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c2",
+        "description": "<p>O campo Ip header length informa o tamanho do cabe&ccedil;alho em palavras de 32 bits</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be673b5168ccb746768c9",
+    "description": "<p>(UFR/2021 - Adaptada) O IPv4 &eacute; uma vers&atilde;o do Protocolo de Internet. Sobre as caracter&iacute;sticas do IPv4, marque V para as afirmativas verdadeiras e F para as falsas.</p>\n\n<p>( ) Possui um limite de endere&ccedil;amento.</p>\n\n<p>( ) Requer uso de classe G e H em rede.</p>\n\n<p>( ) Utiliza campo que informa sua vers&atilde;o.</p>\n\n<p>( ) Elimina o uso de TTL, Offset e flags.</p>\n\n<p>Assinale a sequ&ecirc;ncia correta.</p>\n",
+    "descricaoRespostaCorreta": "V F V F",
+    "comentario": "V: O IPv4 tem um limite de ~4.3 bilhões de endereços. F: As classes G e H são experimentais/reservadas e não usadas em redes comuns. V: O primeiro campo do cabeçalho IPv4 indica a versão (valor 4). F: Os campos TTL, Offset e Flags são partes essenciais do cabeçalho IPv4. Fonte: RFC 791 - Internet Protocol.",
+    "respostaCorreta": "654be673b5168ccb746768c5",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768c4",
+        "description": "<p>V F F V</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c5",
+        "description": "<p>V F V F</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c6",
+        "description": "<p>F F V F</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c7",
+        "description": "<p>F V F V</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768c8",
+        "description": "<p>F F F F</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb7467853a",
+    "description": "<p>(IF-TO/2021 - Adaptada) No laborat&oacute;rio de Inform&aacute;tica do Campus XYZ, o computador do aluno A tem o endere&ccedil;amento IP 192.168.30.128/24. Os alunos podem utilizar os laborat&oacute;rios para fazer pesquisas e outras tarefas.</p>\n\n<p>Para que o computador do Aluno A tenha acesso &agrave; internet &eacute; necess&aacute;rio que o seu IP local seja convertido para um IP p&uacute;blico. Qual o protocolo abaixo tem essa fun&ccedil;&atilde;o?&nbsp;</p>\n",
+    "descricaoRespostaCorreta": "NAT.",
+    "comentario": "A função de traduzir um endereço IP privado (como os da faixa 192.168.x.x) para um endereço IP público para permitir o acesso à internet é a definição do NAT (Network Address Translation). Fonte: RFC 3022 - Traditional IP Network Address Translator.",
+    "respostaCorreta": "654be68eb5168ccb74678535",
+    "alternatives": [
+      {
+        "id": "654be68eb5168ccb74678535",
+        "description": "<p>NAT.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb74678536",
+        "description": "<p>IP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb74678537",
+        "description": "<p>TCP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb74678538",
+        "description": "<p>UDP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb74678539",
+        "description": "<p>HTTP.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb746507e0",
+    "description": "<p>Um dos protocolos de controle que são fundamentais para a implementação da arquitetura TCP/IP é o protocolo ARP. Sua função é:</p>",
+    "descricaoRespostaCorreta": "Fazer o mapeamento entre os endereços de rede e de enlace dos hospedeiros.",
+    "comentario": "O ARP (Address Resolution Protocol) é usado para descobrir o endereço da camada de enlace (endereço MAC) correspondente a um endereço da camada de rede (endereço IP) em uma mesma sub-rede. Fonte: RFC 826 - An Ethernet Address Resolution Protocol.",
+    "respostaCorreta": "65b12d6455fefcc52fd4998a",
+    "alternatives": [
+      {
+        "id": "65b12d6455fefcc52fd49989",
+        "description": "<p>Distribuir dinamicamente informações de configurações para os hospedeiros em uma sub-rede.</p>"
+      },
+      {
+        "id": "65b12d6455fefcc52fd4998a",
+        "description": "<p>Fazer o mapeamento entre os endereços de rede e de enlace dos hospedeiros.</p>"
+      },
+      {
+        "id": "65b12d6455fefcc52fd4998b",
+        "description": "<p>Possibilitar a divisão de uma rede em sub-redes.</p>"
+      },
+      {
+        "id": "65b12d6455fefcc52fd4998c",
+        "description": "<p>Possibilitar a utilização de mais endereços na rede interna do que os disponíveis para tal.</p>"
+      },
+      {
+        "id": "65b12d6455fefcc52fd4998d",
+        "description": "<p>Transferir informações de controle entre os roteadores de uma sub-rede.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be673b5168ccb746768e1",
+    "description": "<p>(UFMG/2021 - Adaptada) O endere&ccedil;amento IP &eacute; essencial para que os dispositivos possam se comunicar atrav&eacute;s da internet ou de uma rede local. Qual &eacute; o protocolo que permite a aloca&ccedil;&atilde;o din&acirc;mica de endere&ccedil;os IP p&uacute;blicos?</p>\n",
+    "descricaoRespostaCorreta": "DHCP",
+    "comentario": "O DHCP (Dynamic Host Configuration Protocol) é o protocolo responsável por atribuir endereços IP e outras informações de configuração de rede (como máscara de sub-rede, gateway padrão e servidores DNS) de forma automática aos dispositivos em uma rede. Fonte: RFC 2131 - Dynamic Host Configuration Protocol.",
+    "respostaCorreta": "654be673b5168ccb746768dd",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768dc",
+        "description": "<p>ARP</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768dd",
+        "description": "<p>DHCP</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768de",
+        "description": "<p><span dir=\"ltr\" lang=\"EN-US\">Dynamic-IP</span></p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768df",
+        "description": "<p>NAT</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768e0",
+        "description": "<p>UDP</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be673b5168ccb746768cf",
+    "description": "<p>(FGV/2022) A t&eacute;cnica definida nas Request for Comments (RFC) 1631 e 3022 permite que a exist&ecirc;ncia de uma rede internamente um grande conjunto de endere&ccedil;os IPv4 e, externamente, um endere&ccedil;o ou ent&atilde;o um pequeno conjunto de endere&ccedil;os se chama</p>\n",
+    "descricaoRespostaCorreta": "NAT",
+    "comentario": "A descrição corresponde exatamente à função do NAT (Network Address Translation), conforme definido nas RFCs mencionadas. A RFC 1631 foi a original, posteriormente atualizada e complementada pela RFC 3022. Fonte: RFC 1631 e RFC 3022.",
+    "respostaCorreta": "654be673b5168ccb746768ce",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768ca",
+        "description": "<p>intranet</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768cb",
+        "description": "<p>ipconfig</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768cc",
+        "description": "<p>Ifconfig</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768cd",
+        "description": "<p>IPV6</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768ce",
+        "description": "<p>NAT</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb74650630",
+    "description": "<p>Dentre as alternativas, selecione a correta em relação à tabela de repasse.</p>",
+    "descricaoRespostaCorreta": "São montadas com base em informações processadas pelo algoritmo de roteamento.",
+    "comentario": "O algoritmo de roteamento (ex: OSPF, BGP) é executado no plano de controle para determinar os melhores caminhos. O resultado desse processamento é usado para preencher a tabela de repasse (forwarding table) no plano de dados, que é consultada para encaminhar os pacotes rapidamente. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "65b11e849ca9510b17819f77",
+    "alternatives": [
+      {
+        "id": "65b11e849ca9510b17819f75",
+        "description": "<p>Deve possuir uma entrada para cada possível hospedeiro.</p>"
+      },
+      {
+        "id": "65b11e849ca9510b17819f76",
+        "description": "<p>São criadas para estabelecer as rotas em algoritmos de roteamento estáticos.</p>"
+      },
+      {
+        "id": "65b11e849ca9510b17819f77",
+        "description": "<p>São montadas com base em informações processadas pelo algoritmo de roteamento.</p>"
+      },
+      {
+        "id": "65b11e849ca9510b17819f78",
+        "description": "<p>São necessárias apenas quando se utiliza algoritmo de roteamento adaptativo.</p>"
+      },
+      {
+        "id": "65b11e849ca9510b17819f79",
+        "description": "<p>Todos os roteadores da sub-rede devem possuir a mesma tabela de repasse.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be4fdb5168ccb74650774",
+    "description": "<p>A camada de rede de uma rede de computadores pode oferecer os serviços de circuitos virtuais ou de datagramas. O tipo de serviço oferecido influencia diretamente na forma como os pacotes serão transportados entre origem e destino.</p>\n<p>Abaixo são realizadas comparações entre circuitos virtuais e datagramas:</p>\n<p>I - Nas redes de circuitos virtuais é estabelecido um caminho a ser seguido por todos os pacotes de uma conexão, enquanto nas redes de datagrama não existe o conceito de conexão.</p>\n<p>II - Em uma rede de circuitos virtuais os roteadores precisam armazenar as informações de todas as conexões que passam por ele, enquanto nas redes de datagrama basta saber como chegar a cada destino.</p>\n<p>III - Como necessitam conhecer o caminho, somente as redes de circuito virtual precisam executar algoritmos de roteamento. Redes de datagramas não possuem esta necessidade.</p>\n<p>Com base nas comparações acima, é correto o que se afirma em:</p>",
+    "descricaoRespostaCorreta": "I e II somente.",
+    "comentario": "I e II estão corretas. A afirmação III está incorreta porque tanto redes de datagrama (como a Internet) quanto redes de circuito virtual precisam de algoritmos de roteamento para construir suas tabelas (de repasse ou de VC). Fonte: 'Redes de Computadores' - Andrew S. Tanenbaum.",
+    "respostaCorreta": "65b10d70ce59b6da98544cfa",
+    "alternatives": [
+      {
+        "id": "65b10d70ce59b6da98544cf9",
+        "description": "<p>I somente.</p>"
+      },
+      {
+        "id": "65b10d70ce59b6da98544cfa",
+        "description": "<p>I e II somente.</p>"
+      },
+      {
+        "id": "65b10d70ce59b6da98544cfb",
+        "description": "<p>II e III somente.</p>"
+      },
+      {
+        "id": "65b10d70ce59b6da98544cfc",
+        "description": "<p>I e III somente.</p>"
+      },
+      {
+        "id": "65b10d70ce59b6da98544cfd",
+        "description": "<p>Todas as afirmações estão corretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be673b5168ccb746768bd",
+    "description": "<p>(FGV/2018) Sobre as t&eacute;cnicas de comuta&ccedil;&atilde;o, analise as afirmativas a seguir.</p>\n\n<p>I. Diferentes pacotes podem seguir caminhos distintos na comuta&ccedil;&atilde;o de pacotes implementada por datagramas.</p>\n\n<p>II. A comuta&ccedil;&atilde;o de circuitos utiliza a transmiss&atilde;o store-and-forward, desde o transmissor at&eacute; o receptor.</p>\n\n<p>III. Em um circuito virtual os dados s&atilde;o entregues fora de ordem.</p>\n\n<p>Est&aacute; correto o que se afirma em:</p>\n",
+    "descricaoRespostaCorreta": "I, apenas",
+    "comentario": "I: Correto, em redes de datagramas cada pacote é roteado independentemente. II: Incorreto, 'store-and-forward' é característico da comutação de pacotes, não de circuitos. III: Incorreto, uma característica dos circuitos virtuais é que todos os pacotes seguem o mesmo caminho, garantindo a entrega em ordem. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "654be673b5168ccb746768b8",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768b8",
+        "description": "<p>I, apenas</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768b9",
+        "description": "<p>II, apenas</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768ba",
+        "description": "<p>III, apenas</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768bb",
+        "description": "<p>I e II, apenas</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768bc",
+        "description": "<p>I, II e III.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be673b5168ccb746768ab",
+    "description": "<p>(IBFC/2023) Quanto &agrave;s camadas do Modelo OSI, mencionadas abaixo, assinale a alternativa que apresenta essas camadas organizadas da mais superiores para as inferiores.</p>\n\n<p>A. F&iacute;sica B. Apresenta&ccedil;&atilde;o C. Transporte D. Rede</p>\n",
+    "descricaoRespostaCorreta": "B C D A",
+    "comentario": "A ordem das camadas do modelo OSI, da mais alta (7) para a mais baixa (1) é: Aplicação, Apresentação (B), Sessão, Transporte (C), Rede (D), Enlace, Física (A). Portanto, a sequência correta é B, C, D, A. Fonte: ISO/IEC 7498-1.",
+    "respostaCorreta": "654be673b5168ccb746768a7",
+    "alternatives": [
+      {
+        "id": "654be673b5168ccb746768a6",
+        "description": "<p>A B C D</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768a7",
+        "description": "<p>B C D A</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768a8",
+        "description": "<p>C D A B</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768a9",
+        "description": "<p>D B A C</p>\n"
+      },
+      {
+        "id": "654be673b5168ccb746768aa",
+        "description": "<p>B A C D</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  }
+,
+  {
+    "id": "654be68eb5168ccb746783cc",
+    "description": "<p>(OBJETIVA/2019 - Adaptada) As arquiteturas em redes permitem a interoperabilidade entre diferentes dispositivos e sistemas, possibilitando que redes heterog&ecirc;neas se comuniquem e troquem informa&ccedil;&otilde;es de forma eficiente e padronizada. &Eacute; um exemplo do modelo de transmiss&atilde;o de informa&ccedil;&atilde;o Cliente/Servidor:</p>\n",
+    "descricaoRespostaCorreta": "Acesso remoto a um banco de dados.",
+    "comentario": "No modelo cliente/servidor, um cliente solicita um serviço e um servidor o fornece. O acesso a um banco de dados remoto é um exemplo clássico, onde a aplicação cliente solicita dados ao servidor de banco de dados. As outras opções são atividades locais. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "654be68eb5168ccb746783c9",
+    "alternatives": [
+      {
+        "id": "654be68eb5168ccb746783c7",
+        "description": "<p>Fazer backup em m&iacute;dia remov&iacute;vel.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c8",
+        "description": "<p>Configura&ccedil;&atilde;o de programas no computador.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c9",
+        "description": "<p>Acesso remoto a um banco de dados.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783ca",
+        "description": "<p>Instala&ccedil;&atilde;o de mem&oacute;ria.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783cb",
+        "description": "<p>Utiliza&ccedil;&atilde;o de editor de textos.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb746783a8",
+    "description": "<p>(TRE-PI/2016 - Adaptada) A camada de aplica&ccedil;&atilde;o &eacute; a camada mais alta e fornece servi&ccedil;os para os aplicativos que rodam em dispositivos conectados &agrave; rede. Ela inclui protocolos como HTTP, FTP, SMTP e DNS, entre outros. O servi&ccedil;o de multiplexa&ccedil;&atilde;o provido pela camada de transporte da Internet &eacute; respons&aacute;vel por</p>\n",
+    "descricaoRespostaCorreta": "Receber os dados dos processos aplicativos, encapsulá-los em segmentos e encaminhá-los para a camada de redes.",
+    "comentario": "A multiplexação na camada de transporte do transmissor consiste em coletar dados de diferentes sockets (processos de aplicação), adicionar os cabeçalhos de transporte (TCP ou UDP) para criar os segmentos, e então passar esses segmentos para a camada de rede. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "654be68eb5168ccb746783a6",
+    "alternatives": [
+      {
+        "id": "654be68eb5168ccb746783a3",
+        "description": "<p>Evitar que o hospedeiro transmita em taxa superior &agrave; capacidade do receptor.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783a4",
+        "description": "<p>Garantir a escalabilidade das aplica&ccedil;&otilde;es na arquitetura par-a-par.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783a5",
+        "description": "<p>Fornecer mecanismo de detec&ccedil;&atilde;o e corre&ccedil;&atilde;o de erros na transmiss&atilde;o.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783a6",
+        "description": "<p>Receber os dados dos processos aplicativos, encapsul&aacute;-los em segmentos e encaminh&aacute;-los para a camada de redes.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783a7",
+        "description": "<p>Particionar datagramas com tamanhos superiores &agrave; MTU do enlace antes de sua transmiss&atilde;o.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68ab5168ccb74678118",
+    "description": "<p>(CORE-SP/2019 - Adaptada) O modelo de refer&ecirc;ncia TCP/IP &eacute; um modelo de protocolo de rede que define como as informa&ccedil;&otilde;es s&atilde;o transmitidas atrav&eacute;s de redes de computadores. Sobre o modelo de refer&ecirc;ncia TCP/IP encontrado nas redes de computadores, &eacute; correto afirmar:</p>\n",
+    "descricaoRespostaCorreta": "Sua camada de transporte possui extrema importância na comunicação entre dois equipamentos. O fluxo nessa camada somente se comunica com o seu fluxo par do dispositivo destino. Lida com questões de ¿QoS¿, controle de fluxo, controle de sequência e correção de erros.",
+    "comentario": "Esta alternativa descreve corretamente as responsabilidades da camada de transporte, que estabelece uma comunicação lógica fim-a-fim entre processos. Protocolos como o TCP fornecem controle de fluxo, sequenciamento e verificação de erros para garantir uma entrega confiável. Fonte: RFC 1122 - Requirements for Internet Hosts.",
+    "respostaCorreta": "654be68ab5168ccb74678113",
+    "alternatives": [
+      {
+        "id": "654be68ab5168ccb74678113",
+        "description": "<p>Sua camada de transporte possui extrema import&acirc;ncia na comunica&ccedil;&atilde;o entre dois equipamentos. O fluxo nessa camada somente se comunica com o seu fluxo par do dispositivo destino. Lida com quest&otilde;es de &iquest;QoS&iquest;, controle de fluxo, controle de sequ&ecirc;ncia e corre&ccedil;&atilde;o de erros.</p>\n"
+      },
+      {
+        "id": "654be68ab5168ccb74678114",
+        "description": "<p>Protocolos de mais alto n&iacute;vel, como HTTP e SMTP, incluem os detalhes necess&aacute;rios &agrave; camada de aplica&ccedil;&atilde;o e apresenta&ccedil;&atilde;o, enquanto que os protocolos de baixo n&iacute;vel, como DNS; FTP e POP, s&atilde;o respons&aacute;veis pelas indica&ccedil;&otilde;es de fluxo de dados nas camadas de sess&atilde;o e internet.</p>\n"
+      },
+      {
+        "id": "654be68ab5168ccb74678115",
+        "description": "<p>Em fun&ccedil;&atilde;o de ser um protocolo orientado &agrave; conex&atilde;o, os pacotes TCP n&atilde;o necessitam do uso de bits adicionais para assegurar o correto sequenciamento da informa&ccedil;&atilde;o, bem como um &quot;checksum&quot; obrigat&oacute;rio para garantir a integridade do cabe&ccedil;alho e dos dados transmitidos.</p>\n"
+      },
+      {
+        "id": "654be68ab5168ccb74678116",
+        "description": "<p>Na camada de transporte, al&eacute;m do protocolo TCP, h&aacute; tamb&eacute;m o protocolo UDP que em fun&ccedil;&atilde;o de sua orienta&ccedil;&atilde;o &agrave; conex&atilde;o possui a capacidade de controlar altos volumes de tr&aacute;fego na Internet, o que proporciona aos seus usu&aacute;rios uma maior performance no envio e recebimento de dados.</p>\n"
+      },
+      {
+        "id": "654be68ab5168ccb74678117",
+        "description": "<p>O &quot;controle de erros&quot;&nbsp;observado na camada de transporte tem como objetivo detectar e corrigir erros gerados pelas camadas de apresenta&ccedil;&atilde;o e sess&atilde;o, se preocupando com erros relacionados &agrave; integridade do conte&uacute;do do pacote recebido, &agrave; entrega duplicada ou a pacotes recebidos fora da sequ&ecirc;ncia.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb746783c0",
+    "description": "<p>(CESGRANRIO/2012) A arquitetura de protocolos da Internet prev&ecirc; que a camada de Aplica&ccedil;&atilde;o &eacute; respons&aacute;vel por fornecer os servi&ccedil;os aos usu&aacute;rios por interm&eacute;dio de protocolos espec&iacute;ficos. O suporte &agrave; camada de Aplica&ccedil;&atilde;o &eacute; fornecido pela camada de Transporte, cuja responsabilidade &eacute; a de controlar a comunica&ccedil;&atilde;o fim-a-fim entre processos de aplica&ccedil;&atilde;o. O suporte &agrave; camada de Transporte, por sua vez, &eacute; fornecido pela camada imediatamente inferior, denominada camada Inter-redes.</p>\n\n<p>S&atilde;o exemplos de protocolos respectivamente utilizados nas camadas de Aplica&ccedil;&atilde;o, Transporte e Inter-redes:</p>\n",
+    "descricaoRespostaCorreta": "HTTP, UDP, IP.",
+    "comentario": "Seguindo o modelo TCP/IP: HTTP é um protocolo da camada de Aplicação. UDP é um protocolo da camada de Transporte. IP é o protocolo da camada de Inter-rede (ou Rede). Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "654be68eb5168ccb746783bc",
+    "alternatives": [
+      {
+        "id": "654be68eb5168ccb746783bb",
+        "description": "<p>FTP, TCP, CSMA/CD.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783bc",
+        "description": "<p>HTTP, UDP, IP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783bd",
+        "description": "<p>CSMA/CD, TCP, IP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783be",
+        "description": "<p>HTTP, FTP, DHCP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783bf",
+        "description": "<p>TCP, UDP, HTTP.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be644b5168ccb74672e13",
+    "description": "<p>O correio eletrônico é um serviço digital que permite aos usuários de computadores o envio e a recepção de mensagens com conteúdo de texto, assim como outras funções adicionais como anexar arquivos junto às mensagens.</p>\n<p style=\"text-align:right\">Disponível em: https://conceitos.com/correio-eletronico/. Acesso em: 22 set. 2022. Adaptado.</p>\n<p>Sobre o correio eletrônico, marque a alternativa correta.</p>",
+    "descricaoRespostaCorreta": "Cada destinatário de correio eletrônico possui uma caixa postal no servidor, em que suas mensagens são armazenadas.",
+    "comentario": "A arquitetura de e-mail é baseada em servidores de correio que armazenam as mensagens recebidas em caixas postais (mailboxes) para cada usuário. O usuário então utiliza um cliente de e-mail (com protocolos como POP3 ou IMAP) para acessar e baixar as mensagens de sua caixa postal. Fonte: RFC 5321 - Simple Mail Transfer Protocol.",
+    "respostaCorreta": "65b1378355fefcc52fd60b12",
+    "alternatives": [
+      {
+        "id": "65b1378355fefcc52fd60b12",
+        "description": "<p>Cada destinatário de correio eletrônico possui uma caixa postal no servidor, em que suas mensagens são armazenadas.</p>"
+      },
+      {
+        "id": "65b1378355fefcc52fd60b13",
+        "description": "<p>Podem transportar mensagens multimídia sem a necessidade de codificação para envio.</p>"
+      },
+      {
+        "id": "65b1378355fefcc52fd60b14",
+        "description": "<p>Se o destinatário estiver on-line no momento da entrega, a mensagem não passará pela caixa postal.</p>"
+      },
+      {
+        "id": "65b1378355fefcc52fd60b15",
+        "description": "<p>Utiliza o mesmo protocolo tanto para o envio quanto para a recepção das mensagens.</p>"
+      },
+      {
+        "id": "65b1378355fefcc52fd60b16",
+        "description": "<p>O correio eletrônico está se tornando obsoleto em favor de tecnologias com o metaverso.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "65b1311ceccdbbbddeb21204",
+    "description": "<p>O protocolo UDP apresenta um cabeçalho extremamente simples utilizado primordialmente por aplicações como DNS, SNMP e TFTP. Acerca das características do protocolo UDP, marque a alternativa correta:</p>",
+    "descricaoRespostaCorreta": "Não estabelece conexões para troca de dados.",
+    "comentario": "O UDP (User Datagram Protocol) é um protocolo da camada de transporte não orientado à conexão. Ele não realiza o 'handshake' de três vias como o TCP, simplesmente envia os datagramas sem estabelecer uma conexão prévia, o que o torna mais rápido, mas menos confiável. Fonte: RFC 768 - User Datagram Protocol.",
+    "respostaCorreta": "65b1311855fefcc52fd51a02",
+    "alternatives": [
+      {
+        "id": "65b1311855fefcc52fd51a02",
+        "description": "<p>Não estabelece conexões para troca de dados.</p>"
+      },
+      {
+        "id": "65b1311855fefcc52fd51a03",
+        "description": "<p>Utilizado por aplicações que requerem uma comunicação confiável, com a garantia da entrega de todos os pacotes.</p>"
+      },
+      {
+        "id": "65b1311855fefcc52fd51a04",
+        "description": "<p>Responsável pela ordenação dos bits na camada física.</p>"
+      },
+      {
+        "id": "65b1311855fefcc52fd51a05",
+        "description": "<p>Realiza retransmissões para garantir a entrega de dados.</p>"
+      },
+      {
+        "id": "65b1311855fefcc52fd51a06",
+        "description": "<p>Trata-se de um protocolo de nível de enlace.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be51db5168ccb74654d18",
+    "description": "<p>Quando deseja acessar uma página <em>web</em>, um usuário utiliza um <em>browser</em> (navegador) que busca a página solicitada em um servidor <em>web</em>. Com base na interação entre o <em>browser</em> e o servidor <em>web</em>, marque a alternativa <strong>correta</strong>:</p>",
+    "descricaoRespostaCorreta": "Servidores web atendem tipicamente na porta 80.",
+    "comentario": "A porta 80 é a porta padrão designada pela IANA (Internet Assigned Numbers Authority) para o protocolo HTTP (Hypertext Transfer Protocol), que é usado para a comunicação entre navegadores e servidores web. A porta 443 é usada para HTTPS (HTTP Seguro). Fonte: IANA Service Name and Transport Protocol Port Number Registry.",
+    "respostaCorreta": "65b1354e55fefcc52fd5b8f3",
+    "alternatives": [
+      {
+        "id": "65b1354e55fefcc52fd5b8f1",
+        "description": "<p>A arquitetura do software de acesso à web é um exemplo de arquitetura peer-to-peer.</p>"
+      },
+      {
+        "id": "65b1354e55fefcc52fd5b8f2",
+        "description": "<p>O protocolo utilizado para a transferência de páginas web entre browser e servidor é o DNS.</p>"
+      },
+      {
+        "id": "65b1354e55fefcc52fd5b8f3",
+        "description": "<p>Servidores web atendem tipicamente na porta 80.</p>"
+      },
+      {
+        "id": "65b1354e55fefcc52fd5b8f4",
+        "description": "<p>Servidores web são softwares que executam na camada de transporte do modelo OSI.</p>"
+      },
+      {
+        "id": "65b1354e55fefcc52fd5b8f5",
+        "description": "<p>O protocolo www é utilizado como forma de acessar páginas da web.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb746783c6",
+    "description": "<p>(UFMG/2021 - Adaptada) A camada de aplica&ccedil;&atilde;o &eacute; a camada mais alta do modelo de refer&ecirc;ncia TCP/IP e &eacute; respons&aacute;vel por fornecer servi&ccedil;os para os aplicativos que rodam em dispositivos conectados &agrave; rede. Ela permite que diferentes aplicativos se comuniquem de forma eficiente e padronizada, independentemente do sistema operacional, plataforma ou hardware utilizados. Dentro desse contexto, qual &eacute; o protocolo que faz o mapeamento de endere&ccedil;o URL para endere&ccedil;o IP?</p>\n",
+    "descricaoRespostaCorreta": "DNS.",
+    "comentario": "Essa é a função principal do DNS (Domain Name System). Ele traduz nomes de domínio legíveis por humanos (como 'www.google.com') para os endereços IP numéricos que os computadores usam para se localizar na rede. Fonte: RFC 1034 e RFC 1035 - Domain Names.",
+    "respostaCorreta": "654be68eb5168ccb746783c2",
+    "alternatives": [
+      {
+        "id": "654be68eb5168ccb746783c1",
+        "description": "<p>ARP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c2",
+        "description": "<p>DNS.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c3",
+        "description": "<p>IP.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c4",
+        "description": "<p>Stringle.</p>\n"
+      },
+      {
+        "id": "654be68eb5168ccb746783c5",
+        "description": "<p>RIP.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be644b5168ccb74672e1f",
+    "description": "<p>Quando o hospedeiro de origem vai enviar os dados, das mais diversas aplicações que estejam rodando, a camada de transporte vai dividir esses pacotes de informações em segmentos, antes de enviar para a camada de rede. Porém, antes disso, a camada de transporte precisa colocar no cabeçalho dos segmentos os dados do hospedeiro bem como a porta na qual cada segmento deve ir.</p>\n<p style=\"text-align:right\">Disponível em: https://www.programacaoprogressiva.net/2019/02/Portas-Multiplexacao-Demultiplexacao-Redes-de-Computadores-Curso.html. Acesso em: 22 set. 2022. Adaptado.</p>\n<p>Quanto ao processo de multiplexação, marque a alternativa correta.</p>",
+    "descricaoRespostaCorreta": "Os protocolos de transporte da internet utilizam números de porta para realizar a multiplexação.",
+    "comentario": "A multiplexação na camada de transporte permite que múltiplos processos de aplicação em um host compartilhem a mesma interface de rede. Isso é feito através do uso de números de porta de origem e destino nos cabeçalhos TCP e UDP, que identificam unicamente cada processo. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+    "respostaCorreta": "65b123019ca9510b1782348c",
+    "alternatives": [
+      {
+        "id": "65b123019ca9510b1782348a",
+        "description": "<p>A multiplexação ocorre somente em protocolos orientados à conexão, como o TCP.</p>"
+      },
+      {
+        "id": "65b123019ca9510b1782348b",
+        "description": "<p>A multiplexação ocorre somente em protocolos sem conexão, como o UDP.</p>"
+      },
+      {
+        "id": "65b123019ca9510b1782348c",
+        "description": "<p>Os protocolos de transporte da internet utilizam números de porta para realizar a multiplexação.</p>"
+      },
+      {
+        "id": "65b123019ca9510b1782348d",
+        "description": "<p>Se o protocolo IP for utilizado, não será necessária a multiplexação na camada de transporte.</p>"
+      },
+      {
+        "id": "65b123019ca9510b1782348e",
+        "description": "<p>A multiplexação ocorre no nível físico, sendo essencial para a comunicação entre camadas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+    "id": "654be68eb5168ccb746783ae",
+    "description": "<p>(UFRJ/2021) Marque a alternativa que apresenta uma função dos números de porta incluídos nos segmentos TCP e UDP.</p>",
+    "descricaoRespostaCorreta": "Identificar aplicações em um mesmo host permitindo que os dados sejam encaminhados à aplicação correta.",
+    "comentario": "Os números de porta funcionam como endereços para processos específicos dentro de um host. Quando um segmento chega, a camada de transporte usa o número da porta de destino para saber a qual aplicação (socket) deve entregar os dados (processo de demultiplexação). Fonte: RFC 6335 - IANA Considerations for Port Numbers.",
+    "respostaCorreta": "65b133c555fefcc52fd57f2f",
+    "alternatives": [
+      {
+        "id": "65b133c555fefcc52fd57f2d",
+        "description": "<p>Identificar o default gateway.</p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57f2e",
+        "description": "<p>Permitir que o host ordene os pacotes corretamente.</p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57f2f",
+        "description": "<p>Identificar aplicações em um mesmo host permitindo que os dados sejam encaminhados à aplicação correta.</p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57f30",
+        "description": "<p>Realizar o controle de fluxo.</p>"
+      },
+      {
+        "id": "65b133c555fefcc52fd57f31",
+        "description": "<p>Identificar se o protocolo da camada de transporte é TCP ou UDP.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "661d868fdcb34ece12556fca",
+  "description": "<p>Um administrador de rede est&aacute; configurando um sistema para garantir que os pacotes de dados sejam encaminhados eficientemente do ponto de origem ao destino em uma rede complexa. Qual camada do Modelo OSI &eacute; primordial para realizar esta fun&ccedil;&atilde;o?</p>\n",
+  "descricaoRespostaCorreta": "Camada de Rede.",
+  "comentario": "A principal função da Camada de Rede (Camada 3) do modelo OSI é o roteamento, que consiste em determinar o melhor caminho para os pacotes de dados atravessarem múltiplas redes desde a origem até o destino. Fonte: Cloudflare - What is the OSI Model?",
+  "respostaCorreta": "661d868fdcb34ece12556fc7",
+  "alternatives": [
+      {
+        "id": "661d868fdcb34ece12556fc5",
+        "description": "<p>Camada de Aplica&ccedil;&atilde;o.</p>\n"
+      },
+      {
+        "id": "661d868fdcb34ece12556fc6",
+        "description": "<p>Camada de Transporte.</p>\n"
+      },
+      {
+        "id": "661d868fdcb34ece12556fc7",
+        "description": "<p>Camada de Rede.</p>\n"
+      },
+      {
+        "id": "661d868fdcb34ece12556fc8",
+        "description": "<p>Camada de Enlace.</p>\n"
+      },
+      {
+        "id": "661d868fdcb34ece12556fc9",
+        "description": "<p>Camada F&iacute;sica.</p>\n"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be4fdb5168ccb74650936",
+  "description": "<p>A arquitetura TCP/IP tem bem definidos protocolos que são utilizados nas quatro camadas do modelo. São exemplos de protocolos da camada de aplicação, transporte e internet, respectivamente:</p>",
+  "descricaoRespostaCorreta": "HTTP, UDP e IP.",
+  "comentario": "Seguindo o modelo TCP/IP: HTTP é um protocolo da camada de Aplicação. UDP é um protocolo da camada de Transporte. IP é o protocolo da camada de Internet (ou Rede). Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+  "respostaCorreta": "65b10cbcce59b6da985438b0",
+  "alternatives": [
+      {
+        "id": "65b10cbcce59b6da985438b0",
+        "description": "<p>HTTP, UDP e IP.</p>"
+      },
+      {
+        "id": "65b10cbcce59b6da985438b1",
+        "description": "<p>SMTP, IP e TCP.</p>"
+      },
+      {
+        "id": "65b10cbcce59b6da985438b2",
+        "description": "<p>IP, TCP e HTTP.</p>"
+      },
+      {
+        "id": "65b10cbcce59b6da985438b3",
+        "description": "<p>FTP, UDP e HTTP.</p>"
+      },
+      {
+        "id": "65b10cbcce59b6da985438b4",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be4fdb5168ccb74650984",
+  "description": "<p>As camadas do modelo OSI têm seus serviços definidos, elas sabem o que devem fazer, entretanto, não estão definidos protocolos, ou o como fazer. A camada que é responsável por garantir a comunicação confiável entre processos é a:</p>",
+  "descricaoRespostaCorreta": "Transporte.",
+  "comentario": "A Camada de Transporte (Camada 4) é responsável pela comunicação fim-a-fim entre processos. Protocolos como o TCP oferecem serviços de entrega confiável, com controle de fluxo, sequenciamento e correção de erros. Fonte: ISO/IEC 7498-1.",
+  "respostaCorreta": "65b13be755fefcc52fd6a296",
+  "alternatives": [
+      {
+        "id": "65b13be755fefcc52fd6a296",
+        "description": "<p>Transporte.</p>"
+      },
+      {
+        "id": "65b13be755fefcc52fd6a297",
+        "description": "<p>Rede.</p>"
+      },
+      {
+        "id": "65b13be755fefcc52fd6a298",
+        "description": "<p>Enlace.</p>"
+      },
+      {
+        "id": "65b13be755fefcc52fd6a299",
+        "description": "<p>Sessão.</p>"
+      },
+      {
+        "id": "65b13be755fefcc52fd6a29a",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be4feb5168ccb74650a50",
+  "description": "<p>As redes de computadores são estruturadas utilizando o conceito de camadas, com o objetivo de facilitar a manutenção e evolução dos serviços de redes. Acerca do conceito de camadas de rede, podemos dizer que:</p>",
+  "descricaoRespostaCorreta": "Uma camada utiliza o serviço da camada inferior e oferece para a camada superior.",
+  "comentario": "Este é o princípio fundamental da arquitetura em camadas. Cada camada N utiliza os serviços da camada N-1 para realizar sua função e, por sua vez, fornece serviços para a camada N+1 através de uma interface bem definida. Fonte: 'Redes de Computadores' - Andrew S. Tanenbaum.",
+  "respostaCorreta": "65b112ecc3b1544ce7c82480",
+  "alternatives": [
+      {
+        "id": "65b112ecc3b1544ce7c82480",
+        "description": "<p>Uma camada utiliza o serviço da camada inferior e oferece para a camada superior.</p>"
+      },
+      {
+        "id": "65b112ecc3b1544ce7c82481",
+        "description": "<p>Permitiu a diminuição no volume de dados a ser transmitido pelo meio de comunicação.</p>"
+      },
+      {
+        "id": "65b112ecc3b1544ce7c82482",
+        "description": "<p>Uma camada utiliza o serviço da camada superior e oferece para a camada inferior.</p>"
+      },
+      {
+        "id": "65b112ecc3b1544ce7c82483",
+        "description": "<p>Tornou o problema de transmissão de dados mais complexo do que se fosse desenvolvido em uma camada única.</p>"
+      },
+      {
+        "id": "65b112ecc3b1544ce7c82484",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be5c9b5168ccb74667ff9",
+  "description": "<p>A divisão em camadas permitiu o isolamento de funções, sendo cada camada responsável por determinadas funcionalidades. O modelo OSI pode ser considerado o <em>pai</em> dessa ideia e, na sua padronização, definiu que:</p>",
+  "descricaoRespostaCorreta": "A camada de apresentação é responsável por garantir a interoperabilidade dos sistemas.",
+  "comentario": "A Camada de Apresentação (Camada 6) atua como um tradutor para a rede. Ela é responsável pela formatação e conversão dos dados (ex: ASCII para EBCDIC), compressão e criptografia, garantindo que a informação enviada pela camada de aplicação de um sistema seja legível pela camada de aplicação de outro. Fonte: ISO/IEC 7498-1.",
+  "respostaCorreta": "65b1387355fefcc52fd62d42",
+  "alternatives": [
+      {
+        "id": "65b1387355fefcc52fd62d41",
+        "description": "<p>A camada de enlace é responsável por garantir o encaminhamento dos dados da origem até o destino.</p>"
+      },
+      {
+        "id": "65b1387355fefcc52fd62d42",
+        "description": "<p>A camada de apresentação é responsável por garantir a interoperabilidade dos sistemas.</p>"
+      },
+      {
+        "id": "65b1387355fefcc52fd62d43",
+        "description": "<p>A camada física é responsável por realizar o controle de erro entre nós vizinhos.</p>"
+      },
+      {
+        "id": "65b1387355fefcc52fd62d44",
+        "description": "<p>A camada de sessão é responsável por encaminhar os dados de um nó para o nó vizinho.</p>"
+      },
+      {
+        "id": "65b1387355fefcc52fd62d45",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be6e6b5168ccb7467dcca",
+  "description": "<p style=\"margin-left:18.0pt\">O modelo em camadas de redes &eacute; um framework conceitual usado para entender e projetar a infraestrutura de comunica&ccedil;&atilde;o em redes de computadores. A ideia principal por tr&aacute;s desse modelo &eacute; dividir o processo de comunica&ccedil;&atilde;o em diferentes camadas, cada uma respons&aacute;vel por realizar uma fun&ccedil;&atilde;o espec&iacute;fica.</p>\n\n<p style=\"margin-left:18.0pt\">No modelo em camadas de uma arquitetura de rede, como &eacute; definida a rela&ccedil;&atilde;o entre camadas adjacentes?</p>\n",
+  "descricaoRespostaCorreta": "A camada inferior fornece serviços para a camada imediatamente superior.",
+  "comentario": "Este é o princípio fundamental da arquitetura em camadas. Cada camada N utiliza os serviços da camada N-1 para realizar sua função e, por sua vez, fornece serviços para a camada N+1 através de uma interface bem definida. Fonte: 'Redes de Computadores' - Andrew S. Tanenbaum.",
+  "respostaCorreta": "654be6e6b5168ccb7467dcc8",
+  "alternatives": [
+      {
+        "id": "654be6e6b5168ccb7467dcc5",
+        "description": "<p>Camadas adjacentes não interagem entre si.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcc6",
+        "description": "<p>Cada camada é independente e opera sem influência das outras.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcc7",
+        "description": "<p>A camada superior oferece serviços para a camada imediatamente superior.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcc8",
+        "description": "<p>A camada inferior fornece serviços para a camada imediatamente superior.</p>"
+      },
+      {
+        "id": "654be6e6b5168ccb7467dcc9",
+        "description": "<p>Todas as camadas se comunicam diretamente entre si.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  },
+  {
+  "id": "654be4fdb5168ccb7465097e",
+  "description": "<p>O processo de encapsulamento permite que cada camada possa abstrair do conteúdo recebido pelas camadas superiores, garantindo o isolamento das informações. O processo do encapsulamento ocorre quando:</p>",
+  "descricaoRespostaCorreta": "Pela interface, uma camada recebe dados da camada imediatamente inferior e adiciona o cabeçalho da própria camada.",
+  "comentario": "O encapsulamento ocorre na transmissão (de cima para baixo). Uma camada recebe a PDU (Protocol Data Unit) da camada superior, a trata como dados, e adiciona seu próprio cabeçalho, criando uma nova PDU que é passada para a camada inferior. A alternativa está conceitualmente invertida (fala em receber da camada inferior). A alternativa mais próxima do processo correto seria a D, mas a descrição está confusa. No entanto, o conceito geral de adicionar cabeçalho a dados da camada superior é o cerne do encapsulamento. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+  "respostaCorreta": "65b115f6c3b1544ce7c8a9d6",
+  "alternatives": [
+      {
+        "id": "65b115f6c3b1544ce7c8a9d5",
+        "description": "<p>Uma camada recebe as informações da camada inferior, por meio do serviço, adicionando o cabeçalho da própria camada.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8a9d6",
+        "description": "<p>Pela interface, uma camada recebe dados da camada imediatamente inferior e adiciona o cabeçalho da própria camada.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8a9d7",
+        "description": "<p>A camada superior envia, por meio do protocolo, os dados para a mesma camada de outro dispositivo.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8a9d8",
+        "description": "<p>A camada inferior recebe, pela interface, os dados da camada superior, adicionando o próprio cabeçalho.</p>"
+      },
+      {
+        "id": "65b115f6c3b1544ce7c8a9d9",
+        "description": "<p>Todas as alternativas estão incorretas.</p>"
+      }
+    ],
+    "isMarkedForReview": false,
+    "selectedAnswer": ""
+  }
+,
+    {
+      "id": "654d48fb134266c15976cff1",
+      "description": "<p>O conhecido sistema .edu, .gov, .com, .mil, .org, .net e .int para nomear sites é mais fácil de lembrar do que a designação anterior para sites, como o endereço IP 123.456.789.10.<br />\r\nDentre as opções a seguir, qual é o nome do sistema que converte nomes de domínio legíveis por humanos (por exemplo, www.amazon.com) em endereços IP legíveis por máquina (por exemplo, 192.0.2.44)?</p>\r",
+      "respostaCorreta": "65ea4cc670af74373849ce42",
+      "descricaoRespostaCorreta": "DNS",
+      "comentario": "Essa é a definição clássica do DNS (Domain Name System), que atua como uma 'lista telefônica' da internet, traduzindo nomes de domínio para endereços IP. Fonte: AWS - What Is DNS?",
+      "alternatives": [
+        
+        {
+          "id": "65ea4cc670af74373849ce3f",
+          "description": "<p>FTP</p>\r"
+        },
+        {
+          "id": "65ea4cc670af74373849ce40",
+          "description": "<p>SMTP</p>\r"
+        },
+        {
+          "id": "65ea4cc670af74373849ce41",
+          "description": "<p>Telnet</p>\r"
+        },
+        {
+          "id": "65ea4cc670af74373849ce42",
+          "description": "<p>DNS</p>\r"
+        },
+        {
+          "id": "65ea4cc670af74373849ce43",
+          "description": "<p>POP</p>\r"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976d003",
+      "description": "<td colspan=\"2\" align=\"left\" valign=\"top\" class=\"linha_text_normal_000000\"><p>Em cada camada, uma Unidade de Dados de Protocolo, ou PDU (Protocol Data Unit) possui campos de cabeçalho e um campo de carga útil.</p>\n\n<p>Dentre as opções a seguir, qual é o nome do PDU da camada de enlace de dados?</p>\n</td>",
+      "alternatives": [
+        { "id": "654d48fb134266c15976cffe", "description": "<p>Quadro</p>" },
+        {
+          "id": "654d48fb134266c15976cfff",
+          "description": "<p>Datagrama</p>"
+        },
+        {
+          "id": "654d48fb134266c15976cffe",
+          "description": "<p>Quadro</p>"
+        },
+        {
+          "id": "654d48fb134266c15976cfff",
+          "description": "<p>Datagrama</p>"
+        },
+        {
+          "id": "654d48fb134266c15976d000",
+          "description": "<p>Mensagem</p>"
+        },
+        {
+          "id": "654d48fb134266c15976d001",
+          "description": "<p>Segmento</p>"
+        },
+        {
+          "id": "654d48fb134266c15976d002",
+          "description": "<p>Rótulo</p>"
+        }
+      ],
+      "respostaCorreta": "654d48fb134266c15976cffe",
+      "descricaoRespostaCorreta": "Quadro",
+      "comentario": "A Unidade de Dados de Protocolo (PDU) da Camada de Enlace de Dados (Camada 2) é chamada de Quadro (Frame). Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cff7",
+      "description": "<p>A camada de transporte carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma aplicação. Há dois protocolos de transporte na Internet: TCP e UDP.</p>\r\n<p>São serviços oferecidos pelo protocolo TCP:</p>\r\n<p>I. Transferência de dados confiável.<br />\r\nII. Serviço não orientado a conexão.<br />\r\nIII. Fragmentação em segmentos.</p>\r\n<p>Marque a alternativa que possui todas os serviços corretos:</p>\r",
+      "respostaCorreta": "65ea4d6b70af74373849e974",
+      "descricaoRespostaCorreta": "I, III",
+      "alternatives": [
+        {
+          
+          "id": "65ea4d6b70af74373849e972",
+          "description": "<p>II, III</p>\r"
+        },
+        {
+          "id": "65ea4d6b70af74373849e973",
+          "description": "<p>I, II, III</p>\r"
+        },
+        {
+          "id": "65ea4d6b70af74373849e974",
+          "description": "<p>I, III</p>\r"
+        },
+        {
+          "id": "65ea4d6b70af74373849e975",
+          "description": "<p>I</p>\r"
+        },
+        {
+          "id": "65ea4d6b70af74373849e976",
+          "description": "<p>II</p>\r"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cffd",
+      "description": "<p>Em cada camada, uma Unidade de Dados de Protocolo, ou PDU (Protocol Data Unit), possui campos de cabeçalho e um campo de carga útil.</p>\n<p>Dentre as opções a seguir, qual é o nome do PDU da camada de aplicação?</p>",
+      "descricaoRespostaCorreta": "Mensagem",
+      "respostaCorreta": "65b11413c3b1544ce7c856eb",
+      "comentario": "A Unidade de Dados de Protocolo (PDU) da Camada de Aplicação (Camada 7) é chamada de Mensagem. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+      "alternatives": [
+        {
+          "id": "65b11413c3b1544ce7c856e9",
+          "description": "<p>Quadro</p>"
+        },
+        {
+          "id": "65b11413c3b1544ce7c856ea",
+          "description": "<p>Célula</p>"
+        },
+        {
+          "id": "65b11413c3b1544ce7c856eb",
+          "description": "<p>Mensagem</p>"
+        },
+        {
+          "id": "65b11413c3b1544ce7c856ec",
+          "description": "<p>Segmento</p>"
+        },
+        {
+          "id": "65b11413c3b1544ce7c856ed",
+          "description": "<p>Rótulo</p>"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976d021",
+      "description": "<p>Em cada camada, uma Unidade de Dados de Protocolo, ou PDU (Protocol Data Unit) possui campos de cabeçalho e um campo de carga útil.</p>\r\n<p>Qual é o nome do PDU do protocolo TCP?</p>",
+      "descricaoRespostaCorreta": "Segmento",
+      "comentario": "O protocolo TCP opera na Camada de Transporte, e sua PDU (Protocol Data Unit) é chamada de Segmento. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+      "respostaCorreta": "65c4bcdc4c0b055d5db5b3d4",
+      "alternatives": [
+        {
+          "id": "65c4bcdc4c0b055d5db5b3d0",
+          "description": "<p>Quadro</p>"
+        },
+        {
+          "id": "65c4bcdc4c0b055d5db5b3d1",
+          "description": "<p>Célula</p>"
+        },
+        {
+          "id": "65c4bcdc4c0b055d5db5b3d2",
+          "description": "<p>Mensagem</p>"
+        },
+        {
+          "id": "65c4bcdc4c0b055d5db5b3d3",
+          "description": "<p>Rótulo</p>"
+        },
+        {
+          "id": "65c4bcdc4c0b055d5db5b3d4",
+          "description": "<p>Segmento</p>"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cfdf",
+      "description": "<p>Protocolo é o conjunto de regras sobre o modo como se dará a comunicação entre as partes envolvidas. </p>\r\n<p>Os protocolos definem:</p>\r\n<p>I. Formato.<br />\r\nII. Ordem de mensagens enviadas e recebidas entre as entidades de rede.<br />\r\nIII. Ações tomadas sobre transmissão e recepção de mensagens.</p>\r\n<p>Marque a alternativa que possui todas as capacidades corretas:</p>\r",
+      "alternatives": [
+        { "id": "65ea4d9570af74373849ec7b", "description": "<p>II, III</p>\r" },
+        { "id": "65ea4d9570af74373849ec7c", "description": "<p>I, III</p>\r" },
+        { "id": "65ea4d9570af74373849ec7d", "description": "<p>I, II, III</p>\r" },
+        
+        {
+          "id": "65ea4d9570af74373849ec7c",
+          "description": "<p>I, III</p>\r"
+        },
+        {
+          "id": "65ea4d9570af74373849ec7d",
+          "description": "<p>I, II, III</p>\r"
+        },
+        {
+          "id": "65ea4d9570af74373849ec7e",
+          "description": "<p>I</p>\r"
+        },
+        {
+          "id": "65ea4d9570af74373849ec7f",
+          "description": "<p>III</p>\r"
+        }
+      ],
+      "respostaCorreta": "65ea4d9570af74373849ec7d",
+      "descricaoRespostaCorreta": "I, II, III",
+      "comentario": "Um protocolo define a sintaxe (formato da mensagem), a semântica (significado dos campos) e o timing (ordem e ações) da comunicação entre duas ou mais entidades. Todos os três itens estão corretos. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cfd9",
+      "description": "<p>As sete camadas do modelo de referência OSI são: de aplicação, de apresentação, de sessão, de transporte, de rede, de enlace e camada física.<br />\r\nQual das seguintes camadas da arquitetura de redes em camadas OSI possui a seguinte função:<br />\r\n''Determinar o roteamento (caminho) dos pacotes da origem até o destino''.</p>\r",
+      "respostaCorreta": "65ea4cf370af74373849d83a",
+      "descricaoRespostaCorreta": "Rede",
+      "comentario": "A principal função da Camada de Rede (Camada 3) do modelo OSI é o roteamento, que consiste em determinar o melhor caminho para os pacotes de dados atravessarem múltiplas redes desde a origem até o destino. Fonte: Cloudflare - What is the OSI Model?",
+      "alternatives": [
+        {
+          
+          "id": "65ea4cf370af74373849d837",
+          "description": "<p>Enlace</p>\r"
+        },
+        {
+          "id": "65ea4cf370af74373849d838",
+          "description": "<p>Física</p>\r"
+        },
+        {
+          "id": "65ea4cf370af74373849d839",
+          "description": "<p>Transporte</p>\r"
+        },
+        {
+          "id": "65ea4cf370af74373849d83a",
+          "description": "<p>Rede</p>\r"
+        },
+        {
+          "id": "65ea4cf370af74373849d83b",
+          "description": "<p>Aplicação.</p>\r"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "674797e8391de1178839ac11",
+      "description": "<p>Na literatura, as redes de computadores podem ser classificadas de v&aacute;rias formas, sempre com base em fundamentos confi&aacute;veis e validados.</p>\n\n<p>Na literatura formal, s&atilde;o elementos para a classifica&ccedil;&atilde;o de redes de computadores:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Crit&eacute;rios relativos/subjetivos.</li>\n\t<li>Meio de transmiss&atilde;o.</li>\n\t<li>Arquitetura de Rede.</li>\n\t<li>Arquitetura de Computadores.</li>\n</ol>\n\n<p>Marque a alternativa que possui todos os elementos corretos:</p>\n",
+      "alternatives": [
+        {
+          "id": "674797e8391de1178839ac0c",
+          "description": "<p>I, II, III, IV.</p>\n"
+        },
+        {
+          "id": "674797e8391de1178839ac0d",
+          "description": "<p>I, II, III.</p>\n"
+        },
+        {
+          "id": "674797e8391de1178839ac0e",
+          "description": "<p>II, III, IV.</p>\n"
+        },
+        {
+          "id": "674797e8391de1178839ac0f",
+          "description": "<p>II, III.</p>\n"
+        },
+        {
+          "id": "674797e8391de1178839ac10",
+          "description": "<p>III, IV.</p>\n"
+        }
+      ],
+      "respostaCorreta": "674797e8391de1178839ac0f",
+      "comentario": "As redes são classificadas por critérios como abrangência geográfica (LAN, MAN, WAN), topologia (barramento, anel, estrela), meio de transmissão (guiado, não guiado) e arquitetura (cliente-servidor, P2P). Meio de transmissão e Arquitetura de Rede são critérios válidos. Fonte: 'Redes de Computadores' - Andrew S. Tanenbaum.",
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cfd3",
+      "description": "<p>A radiação eletromagnética consiste em ondas do campo eletromagnético, que se propagam pelo espaço e carregam energia eletromagnética radiante. A luz visível que vem de uma lâmpada em sua casa e as ondas de rádio que vêm de uma estação de rádio são dois tipos de radiação eletromagnética</p>\n<p>É um exemplo de onda eletromagnética utilizada em redes não guiadas:</p>",
+      "respostaCorreta": "65b115eec3b1544ce7c8a85d",
+      "comentario": "Redes não guiadas (sem fio) utilizam ondas eletromagnéticas que se propagam pelo espaço. Micro-ondas, ondas de rádio e infravermelho são exemplos. Fibra ótica, cabo coaxial e par trançado são meios físicos guiados. Fonte: 'Comunicação de Dados e Redes de Computadores' - Behrouz A. Forouzan.",
+      "alternatives": [
+        {
+          "id": "65b115eec3b1544ce7c8a859",
+          "description": "<p>Fibra ótica</p>"
+        },
+        {
+          "id": "65b115eec3b1544ce7c8a85a",
+          "description": "<p>Cabo coaxial</p>"
+        },
+        {
+          "id": "65b115eec3b1544ce7c8a85b",
+          "description": "<p>Cabo de par trançado</p>"
+        },
+        {
+          "id": "65b115eec3b1544ce7c8a85c",
+          "description": "<p>Cabo USB</p>"
+        },
+        {
+          "id": "65b115eec3b1544ce7c8a85d",
+          "description": "<p>Micro-ondas</p>"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    },
+    {
+      "id": "654d48fb134266c15976cfeb",
+      "description": "<p>Todas as atividades na Internet que envolvem duas ou mais entidades remotas que se comunicam são governadas por um elemento que define o formato e a ordem das mensagens trocadas entre duas ou mais entidades comunicantes, bem como as ações realizadas na transmissão e/ou no recebimento de uma mensagem ou outro evento.</p>\n<p>O nome desse elemento é:</p>",
+      "descricaoRespostaCorreta": "Protocolo",
+      "comentario": "A descrição apresentada é a definição exata de um protocolo de rede. Ele é um conjunto de regras que governa a comunicação de dados. Fonte: 'Redes de Computadores e a Internet' - Kurose & Ross.",
+      "respostaCorreta": "65b116e7c3b1544ce7c8d3a0",
+      "alternatives": [
+        {
+          "id": "65b116e7c3b1544ce7c8d39d",
+          "description": "<p>Encapsulamento</p>"
+        },
+        {
+          "id": "65b116e7c3b1544ce7c8d39e",
+          "description": "<p>Interface</p>"
+        },
+        {
+          "id": "65b116e7c3b1544ce7c8d39f",
+          "description": "<p>Serviço</p>"
+        },
+        {
+          "id": "65b116e7c3b1544ce7c8d3a0",
+          "description": "<p>Protocolo</p>"
+        },
+        {
+          "id": "65b116e7c3b1544ce7c8d3a1",
+          "description": "<p>Link</p>"
+        }
+      ],
+      "isMarkedForReview": false,
+      "selectedAnswer": ""
+    }
+  ]
+}

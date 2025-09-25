@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questões de Redes</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; background-color: #2c3e50;}
+        .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 32px 24px; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+        h1 { text-align: center; color: #2c3e50; }
+        .question { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid #eee; }
+        .question:last-child { border-bottom: none; }
+        .q-desc { font-size: 1.1em; margin-bottom: 12px; }
+        .alternatives { list-style: none; padding: 0; }
+        .alternatives li { margin-bottom: 8px; }
+        label { cursor: pointer; }
+        .comentario { margin-top: 12px; padding: 10px; background: #f1f3f5; border-left: 4px solid #495057; font-size: 0.9em; color: #343a40; }
+        input[type="radio"] { margin-right: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Questões de Redes</h1>
+    <div id="questions"></div>
+</div>
+<script>
+fetch('exercicio1-redes.json')
+  .then(resp => resp.json())
+  .then(data => {
+    const container = document.getElementById('questions');
+    data.questions.forEach((q, idx) => {
+      const qDiv = document.createElement('div');
+      qDiv.className = 'question';
+      // Remove tags HTML da descrição
+      const desc = q.description.replace(/<[^>]+>/g, '').replace(/\n/g, '').trim();
+      qDiv.innerHTML = `<div class='q-desc'><b>Questão ${idx+1}:</b> ${desc}</div>`;
+      const ul = document.createElement('ul');
+      ul.className = 'alternatives';
+
+  // Mensagem de feedback
+  const feedback = document.createElement('div');
+  feedback.className = 'feedback-msg';
+  feedback.style.marginTop = '8px';
+  feedback.style.fontWeight = 'bold';
+  feedback.style.display = 'none';
+
+  // Mensagem da resposta correta
+  const respostaCerta = document.createElement('div');
+  respostaCerta.className = 'resposta-correta';
+  respostaCerta.style.display = 'none';
+  respostaCerta.style.marginTop = '4px';
+
+  // Elemento para o comentário
+  const comentarioDiv = document.createElement('div');
+  comentarioDiv.className = 'comentario';
+  comentarioDiv.style.display = 'none';
+
+      q.alternatives.forEach((alt, aidx) => {
+        const altDesc = alt.description.replace(/<[^>]+>/g, '').replace(/\n/g, '').trim();
+        const li = document.createElement('li');
+        li.innerHTML = `<label><input type='radio' name='q${idx}' value='${alt.id}'> ${altDesc}</label>`;
+        // Evento para mostrar feedback
+        li.querySelector('input[type=radio]').addEventListener('change', function() {
+          // Esconde o comentário ao trocar de opção
+          comentarioDiv.style.display = 'none';
+
+          // Limpa feedback e resposta correta antes de mostrar
+          feedback.style.display = 'none';
+          respostaCerta.style.display = 'none';
+          // Mostra feedback
+          if (this.value === q.respostaCorreta) {
+            feedback.textContent = 'Resposta correta!';
+            feedback.style.color = '#155724';
+            feedback.style.background = '#d4edda';
+            feedback.style.borderRadius = '4px';
+            feedback.style.padding = '4px 8px';
+          } else {
+            feedback.textContent = 'Resposta Incorreta';
+            feedback.style.color = '#721c24';
+            feedback.style.background = '#f8d7da';
+            feedback.style.borderRadius = '4px';
+            feedback.style.padding = '4px 8px';
+          }
+          feedback.style.display = 'inline-block';
+          // Mostra resposta correta
+          const corretaAlt = q.alternatives.find(a => a.id === q.respostaCorreta);
+          if (corretaAlt) {
+            const corretaTexto = corretaAlt.description.replace(/<[^>]+>/g, '').replace(/\n/g, '').trim();
+            respostaCerta.innerHTML = `<span style='color:#155724; background:#d4edda; border-radius:4px; padding:2px 6px; font-weight:bold;'>Resposta correta: ${corretaTexto}</span>`;
+            respostaCerta.style.display = 'block';
+
+            // Mostra o comentário se existir
+            if (q.comentario) {
+              comentarioDiv.innerHTML = q.comentario;
+              comentarioDiv.style.display = 'block';
+            }
+          }
+        });
+        ul.appendChild(li);
+      });
+  qDiv.appendChild(ul);
+  qDiv.appendChild(feedback);
+  qDiv.appendChild(respostaCerta);
+  qDiv.appendChild(comentarioDiv);
+  container.appendChild(qDiv);
+    });
+  });
+</script>
+</body>
+</html>
